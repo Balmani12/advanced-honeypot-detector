@@ -1,0 +1,8 @@
+2025-09-13 08:16:43,870 [INFO] Using default heuristics
+2025-09-13 08:16:43,871 [INFO] Starting scan against 127.0.0.1 (resolved ips: ['127.0.0.1']) | stealth=True | workers=100
+2025-09-15 02:16:51,341 [INFO] Using default heuristics
+2025-09-15 02:16:51,344 [INFO] Starting scan against 127.0.0.1 (resolved ips: ['127.0.0.1']) | stealth=True | workers=100
+2025-09-15 03:27:59,264 [INFO] Using default heuristics
+2025-09-15 03:27:59,266 [INFO] Starting scan against 127.0.0.1 (resolved ips: ['127.0.0.1']) | stealth=True | workers=100
+2025-09-15 05:37:53,664 [INFO] Using default heuristics
+2025-09-15 05:37:53,665 [INFO] Starting scan against 192.168.124.131 (resolved ips: ['192.168.124.131']) | stealth=True | workers=20

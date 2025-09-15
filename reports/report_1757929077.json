@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "target": "192.168.124.131",
+    "resolved_ips": [
+      "192.168.124.131"
+    ],
+    "time": "2025-09-15T09:37:53.669564Z",
+    "stealth": true
+  },
+  "results": {
+    "scan": {
+      "192.168.124.131": {
+        "2222": {
+          "open": true,
+          "banner": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2\r\nInvalid SSH identification string.",
+          "rtt": 0.346341609954834,
+          "hostkey_bits": null,
+          "hostkey_algo": "192.168.124.131:2222"
+        }
+      }
+    },
+    "fingerprint": {
+      "192.168.124.131": {
+        "2222": {
+          "banner": "SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2\r\nInvalid SSH identification string.",
+          "sig_match": [],
+          "hostkey": {
+            "ok": true,
+            "raw": "# 192.168.124.131:2222 SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2",
+            "algo": "192.168.124.131:2222",
+            "bits": null,
+            "error": null
+          }
+        }
+      }
+    },
+    "behavior": {
+      "192.168.124.131": {
+        "avg_rtt": 0.346341609954834,
+        "open_ports": [
+          2222
+        ],
+        "count_open": 1
+      }
+    },
+    "heuristic_scores": {
+      "192.168.124.131": {
+        "score": 8,
+        "reasons": [
+          "2222:invalid-ssh-id",
+          "2222:invalid-ssh-identification"
+        ]
+      }
+    },
+    "anomalies": {
+      "192.168.124.131": {
+        "mean": 0.346341609954834,
+        "sd": 0.0,
+        "zscore": 0
+      }
+    },
+    "env_artifact": {},
+    "ti": {},
+    "netinfo": {
+      "dns_basic": {
+        "A": [
+          "192.168.124.131"
+        ],
+        "AAAA": []
+      },
+      "dns_records": {
+        "MX": [],
+        "NS": [],
+        "TXT": []
+      },
+      "whois": {
+        "192.168.124.131": "% IANA WHOIS server\n% for more information on IANA, visit http://www.iana.org\n% This query returned 1 object\n\ninetnum:      192.168.0.0 - 192.168.255.255\norganisation: IANA\nstatus:       assigned\n\nremarks:      http://www.iana.org/go/rfc1918\n\nchanged:      1994-03\nsource:       IANA\n\n\n\n-- Referral WHOIS (whois.arin.net):\n\n\n#\n# ARIN WHOIS data and services are subject to the Terms of Use\n# available at: https://www.arin.net/resources/registry/whois/tou/\n#\n# If you see inaccuracies in the results, please report at\n# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/\n#\n# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.\n#\n\n\n#\n# Query terms are ambiguous.  The query is assumed to be:\n#     \"n 192.168.124.131\"\n#\n# Use \"?\" to get help.\n#\n\nNetRange:       192.168.0.0 - 192.168.255.255\nCIDR:           192.168.0.0/16\nNetName:        PRIVATE-ADDRESS-CBLK-RFC1918-IANA-RESERVED\nNetHandle:      NET-192-168-0-0-1\nParent:         NET192 (NET-192-0-0-0-0)\nNetType:        IANA Special Use\nOriginAS:       \nOrganization:   Internet Assigned Numbers Authority (IANA)\nRegDate:        1994-03-15\nUpdated:        2024-05-24\nComment:        These addresses are in use by many millions of independently operated networks, which might be as small as a single computer connected to a home gateway, and are automatically configured in hundreds of millions of devices.  They are only intended for use within a private context  and traffic that needs to cross the Internet will need to use a different, unique address.\r\nComment:        \r\nComment:        These addresses can be used by anyone without any need to coordinate with IANA or an Internet registry.  The traffic from these addresses does not come from ICANN or IANA.  We are not the source of activity you may see on logs or in e-mail records.  Please refer to http://www.iana.org/abuse/answers\r\nComment:        \r\nComment:        These addresses were assigned by the IETF, the organization that develops Internet protocols, in the Best Current Practice document, RFC 1918 which can be found at:\r\nComment:        http://datatracker.ietf.org/doc/rfc1918\nRef:            https://rdap.arin.net/registry/ip/192.168.0.0\n\n\n\nOrgName:        Internet Assigned Numbers Authority\nOrgId:          IANA\nAddress:        12025 Waterfront Drive\r\nAddress:        Suite 300\nCity:           Los Angeles\nStateProv:      CA\nPostalCode:     90292\nCountry:        US\nRegDate:        \nUpdated:        2024-05-24\nRef:            https://rdap.arin.net/registry/entity/IANA\n\n\nOrgTechHandle: IANA-IP-ARIN\nOrgTechName:   ICANN\nOrgTechPhone:  +1-310-301-5820 \nOrgTechEmail:  abuse@iana.org\nOrgTechRef:    https://rdap.arin.net/registry/entity/IANA-IP-ARIN\n\nOrgAbuseHandle: IANA-IP-ARIN\nOrgAbuseName:   ICANN\nOrgAbusePhone:  +1-310-301-5820 \nOrgAbuseEmail:  abuse@iana.org\nOrgAbuseRef:    https://rdap.arin.net/registry/entity/IANA-IP-ARIN\n\n\n#\n# ARIN WHOIS data and services are subject to the Terms of Use\n# available at: https://www.arin.net/resources/registry/whois/tou/\n#\n# If you see inaccuracies in the results, please report at\n# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/\n#\n# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.\n#\n\n"
+      },
+      "asn": {
+        "192.168.124.131": []
+      }
+    }
+  },
+  "report": "reports/report_1757929077.json"
+}
