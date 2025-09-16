@@ -1,0 +1,276 @@
+{
+  "signatures": {
+    "cowrie": [
+      "Cowrie SSH Honeypot",
+      "cowrie",
+      "SSH-2.0-Cowrie",
+      "cowrie-ssh"
+    ],
+    "kippo": [
+      "Kippo",
+      "SSH-2.0-Kippo",
+      "SSH-2.0-kippo"
+    ],
+    "heralding": [
+      "Heralding",
+      "SSH-2.0-Heralding"
+    ],
+    "glastopf": [
+      "Glastopf",
+      "glastopf",
+      "glastopf/"
+    ],
+    "wordpot": [
+      "Wordpot",
+      "wp-content/plugins/fakeplugin",
+      "WordPress honeypot",
+      "Wordpot"
+    ],
+    "elastichoney": [
+      "Elastichoney",
+      "X-elastichoney",
+      "elastichoney"
+    ],
+    "tpot": [
+      "T-Pot",
+      "TPot",
+      "tpot",
+      "T-Pot",
+      "T-Pot/"
+    ],
+    "mhn": [
+      "Modern Honey Network",
+      "MHN",
+      "mhn"
+    ],
+    "artillery": [
+      "Artillery",
+      "artillery",
+      "artillery-honeypot"
+    ],
+    "honeypy": [
+      "HoneyPy",
+      "honeypy",
+      "HoneyPy"
+    ],
+    "canary": [
+      "Canary",
+      "Canarytokens",
+      "canary",
+      "canarytoken"
+    ],
+    "glutton": [
+      "Glutton",
+      "glutton",
+      "glutton-honeypot"
+    ],
+    "labrea": [
+      "LaBrea",
+      "labrea",
+      "LaBrea tarpit"
+    ],
+    "iotpot": [
+      "IoTPOT",
+      "iotpot",
+      "IoT honeypot",
+      "IoTPot"
+    ],
+    "telnet-honey": [
+      "Telnet Honeypot",
+      "Telnet honeypot",
+      "220 Telnet",
+      "telnetd"
+    ],
+    "modbus-honey": [
+      "Modbus Honeypot",
+      "modbus",
+      "Modbus server",
+      "Modbus"
+    ],
+    "mqtt-honey": [
+      "MQTT Honeypot",
+      "MQTT",
+      "mosquitto",
+      "MQTT Honeypot"
+    ],
+    "amun": [
+      "Amun FTP Honeypot",
+      "220 Amun FTP",
+      "Amun",
+      "Amun FTP"
+    ],
+    "honeypot-ftp": [
+      "FTP Honeypot",
+      "FakeFTP",
+      "220 FakeFTP"
+    ],
+    "ftp-vsftpd-honey": [
+      "vsftpd-honey",
+      "220 vsftpd-honey",
+      "vsftpd"
+    ],
+    "smbtrap": [
+      "SMBTrap",
+      "SMB honeypot",
+      "SMBTrap"
+    ],
+    "smb-honey": [
+      "SMB Honeypot",
+      "Windows for Workgroups 3.1a",
+      "smb-honey"
+    ],
+    "dionaea": [
+      "dionaea",
+      "Dionaea",
+      "Dionaea honeypot"
+    ],
+    "honeyd": [
+      "Honeyd",
+      "honeyd",
+      "Honeyd fake"
+    ],
+    "snare": [
+      "Snare",
+      "Snare honeypot",
+      "snare"
+    ],
+    "conpot": [
+      "Conpot",
+      "conpot",
+      "Server: Conpot",
+      "conpot/"
+    ],
+    "gridpot": [
+      "Gridpot",
+      "gridpot",
+      "GridPot"
+    ],
+    "mysql-honey": [
+      "MySQL Honeypot",
+      "mysql_native_password",
+      "MySQL Proxy",
+      "mysql honeypot"
+    ],
+    "mssql-honey": [
+      "MSSQL Honeypot",
+      "MSSQLServerFake",
+      "MSSQL",
+      "mssql honeypot"
+    ],
+    "redis-honey": [
+      "Redis Honeypot",
+      "redis_version:999.fake",
+      "redis honeypot"
+    ],
+    "rdp-honey": [
+      "RDP Honeypot",
+      "MS_T120",
+      "RDP-FAKE",
+      "RDP honeypot"
+    ],
+    "mailoney": [
+      "Mailoney",
+      "220 mailoney",
+      "MAILONEY"
+    ],
+    "fake-smtp": [
+      "FakeSMTP",
+      "ESMTP Postfix Honeypot",
+      "fake smtp"
+    ],
+    "http-fake": [
+      "Web Honeypot",
+      "fake web",
+      "honeypot web",
+      "honeypot http"
+    ],
+    "honeypot-generic": [
+      "honeypot",
+      "honeypot-detected",
+      "honeypot-fake"
+    ],
+    "elastic-honeypot-http": [
+      "X-elastichoney",
+      "elastichoney",
+      "elastic honeypot"
+    ],
+    "ssh-fingerprint-variants": [
+      "SSH-2.0-Cowrie",
+      "SSH-2.0-Kippo",
+      "SSH-2.0-Heralding",
+      "SSH-2.0-"
+    ],
+    "banner-fake-service": [
+      "Fake Service",
+      "FakeServer",
+      "FakeBanner"
+    ]
+  },
+  "outdated_services": {
+    "outdated-openssh": [
+      "OpenSSH_4.",
+      "OpenSSH_5.",
+      "OpenSSH_6.",
+      "OpenSSH_7.",
+      "OpenSSH_7.0",
+      "OpenSSH_7.2",
+      "OpenSSH_7.4",
+      "OpenSSH_6.6p1"
+    ],
+    "outdated-apache": [
+      "Apache/1.",
+      "Apache/2.0",
+      "Apache/2.2",
+      "Apache/2.2."
+    ],
+    "outdated-nginx": [
+      "nginx/0.",
+      "nginx/1.8",
+      "nginx/1.10",
+      "nginx/1.12",
+      "nginx/1.14"
+    ],
+    "outdated-mysql": [
+      "MySQL 4.",
+      "MySQL 5.0",
+      "MySQL 5.1",
+      "MySQL 5.5",
+      "MySQL 5.6",
+      "MySQL 5."
+    ],
+    "outdated-php": [
+      "PHP/4.",
+      "PHP/5.",
+      "PHP/7.0",
+      "PHP/7.1",
+      "PHP/7.2"
+    ],
+    "outdated-smb": [
+      "SMBv1",
+      "Windows for Workgroups 3.1a",
+      "SMB 1.0",
+      "LanManager"
+    ],
+    "outdated-ftp": [
+      "vsftpd 2.0",
+      "vsftpd 2.",
+      "ProFTPD 1.3.2",
+      "wu-ftp",
+      "Pure-FTPd"
+    ],
+    "outdated-openssl": [
+      "OpenSSL 0.",
+      "OpenSSL 1.0.1",
+      "OpenSSL 1.0.2",
+      "OpenSSL 1.1.0",
+      "OpenSSL 1.1."
+    ],
+    "outdated-java": [
+      "Java/1.4",
+      "Java/1.5",
+      "Java/1.6",
+      "Java/1.7",
+      "Java/1.8"
+    ]
+  }
+}
