@@ -178,10 +178,23 @@ SIG_DB_DEFAULT = {
 def load_signatures(sig_file: str = DEFAULT_SIGS) -> Dict[str, List[str]]:
     cfg = load_json(sig_file)
     if cfg and isinstance(cfg, dict):
-        logger.info("Loaded signatures from %s (%d families)", sig_file, len(cfg))
-        return cfg
+        families = {}
+        total = 0
+        # Handle "signatures" group
+        if "signatures" in cfg and isinstance(cfg["signatures"], dict):
+            for fam, sigs in cfg["signatures"].items():
+                families[fam] = sigs
+                total += 1
+        # Handle "outdated_services" group
+        if "outdated_services" in cfg and isinstance(cfg["outdated_services"], dict):
+            for fam, sigs in cfg["outdated_services"].items():
+                families[fam] = sigs
+                total += 1
+        logger.info("Loaded signatures from %s (%d families)", sig_file, total)
+        return families
     logger.debug("Using built-in signature DB")
     return SIG_DB_DEFAULT.copy()
+
 
 # ---------------- Input Handler ----------------
 class InputHandler:
