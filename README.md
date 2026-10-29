@@ -1,37 +1,20 @@
-# 🛡️ Advanced Honeypot Detector
+## ⚠️ Disclaimer
 
-Advanced Honeypot Detector is a **Python-based security tool** designed to detect the presence of **honeypots** in systems or services.  
-It analyzes suspicious behaviors, abnormal responses, and known honeypot patterns to identify potential traps.
-
----
-
-## 🚀 Features
-
-- 🔍 Detect potential honeypot environments  
-- 🧠 Behavioral & response-based detection  
-- 🖥️ Command Line Interface (CLI)  
-- ⚡ Fast & lightweight scanning  
-- 🛠️ Easy to modify & extend (Python)
+This tool is intended for **educational purposes and authorized security testing only**.
+Only scan systems you own or have explicit written permission to test.
+The author is not responsible for any misuse.
 
 ---
 
 ## 📂 Project Structure
 
 advanced-honeypot-detector/
-│
 ├── ad_honeypot_detect.py      # Main detection script
 ├── signatures_grouped.json    # Honeypot signature database
-├── README.md                  # This README file
-├── cache/                     # Cache folder for temporary data
-├── logs/                      # Logs generated during scans
-└── reports/                   # Scan reports
+├── README.md                  # This file
+└── .gitignore
 
----
-
-## 🧰 Requirements
-
-- Python 3.8+  
-- Required Python libraries (install via `pip install -r requirements.txt` if provided)
+`cache/`, `logs/` and `reports/` are created automatically at runtime and are git-ignored.
 
 ---
 
@@ -40,4 +23,10 @@ advanced-honeypot-detector/
 ```bash
 git clone https://github.com/Balmani12/advanced-honeypot-detector.git
 cd advanced-honeypot-detector
-pip install -r requirements.txt
+```
+
+## ▶️ Usage
+
+```bash
+python3 ad_honeypot_detect.py --help
+```
